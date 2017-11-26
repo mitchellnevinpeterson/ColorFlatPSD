@@ -1,0 +1,277 @@
+/*------------------------------------------------------------------
+==========================Font Classes==============================
+------------------------------------------------------------------*/
+* {
+	font-family: monda, sans-serif;
+}
+
+.playfair {
+	font-family: "Playfair Display SC", serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.font-black {
+	color: #000;
+}
+
+.font-white {
+	color: #fff;
+}
+
+.font-dark-grey {
+	color: #3c3c3c;
+}
+
+.font-light-grey {
+	color: #505050;
+}
+
+.font-light-blue {
+	color: #accfd8;
+}
+
+.font-dark-gold {
+	color: #979274;
+}
+/*changing the width, color, and px size of the hr breaks*/
+.my-4 {
+	width: 80%;
+}
+
+.top-hr {
+	border-top: 2px solid #c5c5c5;
+}
+
+.bottom-hr {
+	border-top: 2px solid #343434;
+}
+
+.background-lightgreen {
+	background-color: #a3d0a8;
+}
+.background-lightblue {
+	background-color: #accfd8;
+}
+.background-darkgrey {
+	background-color: #3c3c3c;
+}
+/*------------------------------------------------------------------
+==========================Show More Buttons=========================
+------------------------------------------------------------------*/
+.btn-show {
+	padding: 10px;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: 700;
+	border: 0px;
+	margin-bottom: 10px;
+}
+/*making the mouse turn into a pointer when hover over button*/
+button:hover {
+	cursor: pointer;
+}
+/*------------------------------------------------------------------
+==========================Nav Bar=================================
+------------------------------------------------------------------*/
+/*changing the nav bar background color*/
+.navbar, .carousel {
+	background-color: #accfd8;
+}
+/*Adding margin between the navbar links*/
+.nav-item {
+	margin-right: 20px;
+}
+/*changing the color and background of the active navbar link*/
+.active-link {
+	background-color: #3d494c;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.active-link-item {
+	color: #accfd8 !important;
+}
+
+.more {
+	border-radius: 10px;
+	margin-right: 10px;
+}
+/*------------------------------------------------------------------
+==========================All Sections=================================
+------------------------------------------------------------------*/
+.all-sections {
+	padding: 30px 0;
+}
+/*changing the font size of all p tags*/
+p {
+	font-size: 12px;
+}
+/*adding margins to all h6 tags*/
+h6 {
+	padding: 10px 0;
+}
+
+h3 {
+	text-shadow: 2px 2px 1px #3c3c3c;
+	font-size: 32px;
+}
+
+/*------------------------------------------------------------------
+==========================Section 1=================================
+------------------------------------------------------------------*/
+.carousel-wrap {
+	background-color: #accfd8; 
+}
+
+.carousel-img {
+	max-width: 500px !important;
+	height: auto;
+	object-fit: contain;
+	display: inline-block !important;
+}
+
+.carousel-header {
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 50px;
+	text-shadow: 2px 2px 1px #3c3c3c;
+}
+.carousel-item {
+	text-align: center;
+}
+/*------------------------------------------------------------------
+==========================Section 2=================================
+------------------------------------------------------------------*/
+/*adding margin to the sides of the p tags in section 2*/
+.sec2-description {
+	margin: 0 10px;
+}
+/*------------------------------------------------------------------
+==========================Section 3=================================
+------------------------------------------------------------------*/
+/*changing the background of the third section*/
+.recent-works-wrap {
+	background-color: #a3d0a8;
+}
+/*changing the font size of the recent works navagation*/
+.recent-nav {
+	font-size: 12px;
+}
+/*changing the image size*/
+.recent-img {
+	width: inherit;
+	height: inherit;
+	object-fit: contain;
+	margin: 15px 0;
+}
+/*------------------------------------------------------------------
+==========================Section 4=================================
+------------------------------------------------------------------*/
+/*changing the background of the fourth section*/
+.template-wrap {
+	background-color: #f0f0f0;
+}
+/*changing the image size*/
+.template-img {
+	width: inherit;
+	height: inherit;
+	object-fit: contain;
+}
+/*------------------------------------------------------------------
+==========================Section 5=================================
+------------------------------------------------------------------*/
+/*Changing the background color of the 5th section*/
+.meet-wrap {
+	background-color: #dbb8c6;
+}
+/*adding margin to the icons for profiles*/
+.profile-icons {
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+/*changing the background color of the profile colums*/
+.profile-card {
+	max-width: 300px;
+	background-color: #fff;
+	margin: 10px 10px;
+}
+/*adding margin the the p tag on the profile cards*/
+.profile-sum {
+	 margin: 10px 25px;
+	 padding-bottom: 10px;
+}
+.profile-img {
+	width: inherit;
+	height: inherit;
+	object-fit: contain;
+	margin-bottom: 10px;
+}
+/*------------------------------------------------------------------
+==========================Section 6=================================
+------------------------------------------------------------------*/
+/*changing the background of the sixth section*/
+.recent-post-wrap {
+	background-color: #b9d2de;
+}
+/*------------------------------------------------------------------
+==========================Section 7 Last Section====================
+------------------------------------------------------------------*/
+/*changing the background color of the seventh section*/
+.form-wrap {
+	background-color: #3c3c3c;
+}
+/*changing the icon color and adding some margin between them*/
+.bottom-icon {
+	color: #505050;
+	margin-right: 8px;
+}
+/*adding a border to the right side of copyright*/
+.copyright {
+	box-sizing: border-box;
+	border-right: 2px solid #505050;
+	padding-right: 8px;
+}
+.powered-by {
+	padding-left: 8px;
+}
+/*Changing the display of the text on bottom*/
+.powered-by-wrap, .copyright-wrap {
+	display: inline-block;
+}
+/*changing the width of the input forms at the bottom*/
+.form-group {
+	width: 310px;
+}
+/*------------------------------------------------------------------
+==========================Media Queries for Resposive===============
+------------------------------------------------------------------*/
+@media (max-width: 370px) {
+	.carousel-header {
+		font-size: 40px;
+	}
+}
+
+@media (min-width: 992px) {
+	.dropdown {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.navbar-brand {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 471px) {
+	.bottom-text {
+		text-align: center;
+	}
+}
+
+@media (max-width: 992px) {
+	.top-nav-items {
+		display: none;
+	}
+}
